@@ -1,0 +1,8 @@
+{
+  "name": "worker-a",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev"
+  }
+}

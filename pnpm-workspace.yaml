@@ -1,0 +1,3 @@
+packages:
+  - "./worker-a"
+  - "./worker-b"
