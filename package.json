@@ -1,23 +1,23 @@
 {
-  "name": "@playground/multi-worker",
+  "name": "vite-cloudflare",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx ./scripts/dev-server"
+    "dev": "vite",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@types/http-proxy": "^1.17.16",
-    "@types/node": "22.13.10",
-    "execa": "^9.5.1",
-    "get-port": "^7.1.0",
-    "http-proxy": "^1.18.1",
-    "strip-ansi": "^7.1.0",
-    "tinyglobby": "^0.2.12",
-    "@cloudflare/vite-plugin": "0.1.12",
-    "@cloudflare/workers-types": "^4.20250317.0",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.2",
-    "vite": "^6.2.2",
-    "wrangler": "4.1.0"
+    "@cloudflare/vite-plugin": "^1.5.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "wrangler": "^4.19.2"
   }
 }
