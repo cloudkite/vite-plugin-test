@@ -4,5 +4,5 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   base: "/subpath",
-  plugins: [react(), cloudflare({ inspectorPort: false, persistState: false })],
+  plugins: [react(), cloudflare()],
 });
